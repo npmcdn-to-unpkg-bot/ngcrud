@@ -1,21 +1,47 @@
 <?php
 ini_set('display_errors', true);
 
-include 'strs.php';
-include 'StrAbstractDAO.php';
-include 'StrConnection.php';
-include 'StrAutoload.php';
-include 'StrUserAction.php';
-include 'StrGenerateAction.php';
+include 'strs/StrAbstractDAO.php';
+include 'strs/StrConnection.php';
+include 'strs/StrAutoload.php';
+include 'strs/StrUserAction.php';
+include 'strs/StrGenerateAction.php';
+
+include 'strs/StrDAO.php';
+include 'strs/StrHtml.php';
+include 'strs/StrModel.php';
+include 'strs/StrServices.php';
+include 'strs/StrStyle.php';
+include 'strs/StrControllers.php';
+
+/**
+ * validations
+ */
 
 if(!isset($_POST['directoryUrl'])){
 	echo 'Type the directory URL for you web server location';
 	exit;
 }
 if(!isset($_POST['projectName'])){
-	echo 'Type the project name';
-	exit;
+    echo 'Type the project name';
+    exit;
 }
+
+if(!isset($_POST['dbName'])){
+    echo 'Type the Database name';
+    exit;
+}
+
+if(!isset($_POST['dbUserName'])){
+    echo 'Type the User (database) name';
+    exit;
+}
+
+if(!isset($_POST['dbPassword'])){
+    echo 'Type the password (database)';
+    exit;
+}
+
 
 $return	= mkdir($_POST['directoryUrl'],0777);
 $bool1 	= shell_exec("chmod 777 ".$_POST['directoryUrl']);

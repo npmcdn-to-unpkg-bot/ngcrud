@@ -14,7 +14,7 @@ function createProject(){
         method: 'post',
         data: data,
         success: function(response){
-            window.open('http://localhost/miniframe.old/done.php','_blank');
+            window.open('http://localhost/ngCrud/done.php','_blank');
         }
     })
 }
