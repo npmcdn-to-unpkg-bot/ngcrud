@@ -18,8 +18,6 @@ class Connection {
     }catch(PDOException \$ex){
         echo \$ex->getMessage();
     }
-
-
  }
 
 }";

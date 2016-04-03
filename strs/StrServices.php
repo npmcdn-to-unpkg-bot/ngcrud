@@ -64,8 +64,6 @@ angular.module('user.service',[])
                 }
             })
         }
-
-
     }
     return service;
 }])

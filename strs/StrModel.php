@@ -32,7 +32,6 @@ foreach ($array as $item) {
     //getter
     $str_model_user .= "\n   public function get".ucfirst($item)."(){\n".
                             "      return $"."this->".$item.";\n   }";
-
     //setter
     $str_model_user .= "\n   public function set".ucfirst($item)."(\$".$item."){\n".
                             "      \$this->".$item."    = \$".$item.";\n      return \$this; \n   }\n\n";

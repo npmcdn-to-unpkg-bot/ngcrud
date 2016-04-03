@@ -125,6 +125,5 @@ $str_ngcrud_controller = "angular.module('ngcrud.controller',[])\n\n
             }
         })
     }
-    
 }])\n\n
 ";

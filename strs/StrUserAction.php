@@ -54,7 +54,6 @@ switch(\$_POST['action']){
 				echo \$ex->getMessage();
 			}
 		break;
-
 	case 'list':
 		try{
 				\$filters['active'] = true;

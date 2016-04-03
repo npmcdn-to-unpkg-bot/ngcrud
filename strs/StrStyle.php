@@ -1,8 +1,5 @@
 <?php
-/**
- * css style
- * 
- */
+
 $css_style="
 body{
     background-color: #cccccc;

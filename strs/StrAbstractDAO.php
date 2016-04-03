@@ -185,6 +185,5 @@ abstract class AbstractDAO extends Connection{
         \$this->strSql = \$strSql;
         return \$this;
     }
-
-    }"
+}"
 ;

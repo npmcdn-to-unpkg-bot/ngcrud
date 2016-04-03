@@ -53,7 +53,5 @@ class GenerateDAO extends Connection{
             return false;
         }
     }
-
 }
-
 ";
