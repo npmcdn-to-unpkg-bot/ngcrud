@@ -6,7 +6,7 @@ $str_index ="<html ng-app='".$_POST['projectName'].'App'."'> \n".
 "       <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS' crossorigin='anonymous'></script>\n\n".
 "       <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>\n\n".
 "       <link rel='stylesheet' type='text/css' href='css/style.css'>\n\n".
-"       <link rel='stylesheet' href='https://npmcdn.com/angular-toastr/dist/angular-toastr.css' />\n".
+"       <link rel='stylesheet' href='https://unpkg.com/angular-toastr/dist/angular-toastr.css' />\n".
 "   </head>\n".
 "   <body style='background-color:#e7e7e7'>\n".
 "       <div class='".$_POST['projectName']."-nav'>".ucfirst($_POST['projectName'])."</div>\n\n".
@@ -15,7 +15,7 @@ $str_index ="<html ng-app='".$_POST['projectName'].'App'."'> \n".
 "       </div>\n".
 "       <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>\n".
 "       <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js'></script>\n".
-"       <script src='https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js'></script>\n".
+"       <script src='https://unpkg.com/angular-toastr/dist/angular-toastr.tpls.js'></script>\n".
 "       <script src='js/app.js'></script>\n\n\n".
 "       <script src='js/controller/dashboard.controller.js'></script>\n".
 "       <script src='js/controller/ngcrud.controller.js'></script>\n".
